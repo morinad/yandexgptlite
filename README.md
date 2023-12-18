@@ -1,6 +1,6 @@
 # Коннектор к YandexGPT Lite на Python
 
-### Как использовать коннектор
+### Как использовать коннектор:
 
 1) Активируем платёжный аккаунт Yandex.Cloud: https://console.cloud.yandex.ru/billing?section=accounts. Можно активировать пробный период на 60 дней.
 Вам потребуется ID папки Yandex.Cloud, эти папки находятся тут: https://console.cloud.yandex.ru/folders/. Folder ID можно взять из URL или из интерфейса.
