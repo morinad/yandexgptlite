@@ -30,7 +30,8 @@ account = YandexGPTLite('b1g2k730lqhu8pc02a', 'y0_AgAAAAMf8GzATuwQAAAD15w-py1O8U
    
 text = account.create_completion('Привет! Как твои дела?', '0.6')
 
-print(text) 
+print(text) #Привет! У меня всё хорошо, как дела у вас?
 
-#Привет! У меня всё хорошо, как дела у вас?
+### Лицензия
 
+Этот проект распространяется под лицензией MIT. См. файл https://github.com/morinad/yandexgptlite/blob/main/LICENSE.txt (LICENSE) для дополнительной информации.
