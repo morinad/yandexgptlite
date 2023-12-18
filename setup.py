@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='yandexgptlite',
-    version='0.1',
+    version='0.1.5',
     packages=find_packages(),
     description='Получение ответов от YandexGPT Lite',
     long_description=open('README.md').read(),
@@ -11,7 +11,6 @@ setup(
     author_email='y.director@yandex.ru',
     url='https://github.com/morinad/yandexgptlite',
     install_requires=[
-        'json',
         'requests'
     ],
 )

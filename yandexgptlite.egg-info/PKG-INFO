@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: yandexgptlite
+Version: 0.1.5
+Summary: Получение ответов от YandexGPT Lite
+Home-page: https://github.com/morinad/yandexgptlite
+Author: Александр Морин
+Author-email: y.director@yandex.ru
+Description-Content-Type: text/markdown
+
+# yandexgptlite
+YandexGPT Lite Python Connector

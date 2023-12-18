@@ -1,0 +1,9 @@
+README.md
+setup.py
+yandexgptlite/__init__.py
+yandexgptlite/yandexgptlite.py
+yandexgptlite.egg-info/PKG-INFO
+yandexgptlite.egg-info/SOURCES.txt
+yandexgptlite.egg-info/dependency_links.txt
+yandexgptlite.egg-info/requires.txt
+yandexgptlite.egg-info/top_level.txt
