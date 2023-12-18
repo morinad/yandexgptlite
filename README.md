@@ -29,6 +29,7 @@ account = YandexGPTLite('b1g2k730lqhu8pc02a', 'y0_AgAAAAMf8GzATuwQAAAD15w-py1O8U
 6) Вызываем функцию обращения к GPT для нашего аккаунта (температура от 0 до 1, где единица - максимум творчества):
    
 text = account.create_completion('Привет! Как твои дела?', '0.6')
+
 print(text) 
 
 #Привет! У меня всё хорошо, как дела у вас?
