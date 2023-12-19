@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='yandexgptlite',
-    version='0.1.5',
+    version='0.1.7',
     packages=find_packages(),
     description='Получение ответов от YandexGPT Lite',
     long_description=open('README.md').read(),
