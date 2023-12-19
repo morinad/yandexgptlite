@@ -13,15 +13,15 @@ class YandexGPTLite:
         iamToken = token_response.json()['iamToken']
         return iamToken
 
-    def create_completion(self, prompt: str, temperature, system_prompt = '', max_tokens = 100000, model = 'lite'):
+    def create_completion(self, prompt: str, temperature, system_prompt='', max_tokens=100000, model='lite'):
         if model == 'lite': final_model = f"gpt://{self.folder}/yandexgpt-lite/latest"
         else: final_model = model
         if system_prompt == '': message_list = [{"role": "user", "text": prompt}]
         else: message_list = [{"role": "system", "text": str(system_prompt)}, {"role": "user", "text": prompt}]
         headers={"Authorization" : "Bearer " + self.iamtoken, "x-folder-id" : self.folder }
         body = {"modelUri": final_model,  "completionOptions":
-            { "stream": False, "temperature": str(temperature), "maxTokens": str(max_tokens) },
-                  "messages": message_list  }
+            {"stream": False, "temperature": str(temperature), "maxTokens": str(max_tokens)},
+                  "messages": message_list}
         jsondata = json.dumps(body, ensure_ascii=False).encode("utf8")
         web = requests.post("https://llm.api.cloud.yandex.net/foundationModels/v1/completion",
                            headers = headers, data = jsondata)
